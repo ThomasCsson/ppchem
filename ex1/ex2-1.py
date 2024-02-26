@@ -4,10 +4,12 @@ p = Path('.')
 
 print(p.resolve())
 
-for file in p.iterdir():
-    print(file)
-
-new_dir = p / 'new_directory'
-
+new_dir = p / 'ex_folder'
 new_dir.mkdir(exist_ok=True)
 
+print(new_dir.exists())
+
+new_file = new_dir / 'ex_file.py'
+new_file.touch()
+
+print(new_file.exists())
