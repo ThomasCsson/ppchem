@@ -7,8 +7,5 @@ for i in range (1,len(s)):
     if s[i]==" ":
         print(s[i+1])
 
+print('done')
 
-
-for i in range (0, len(s)):
-    if s[i]==s.upper(s[i]):
-        print(s[i])
