@@ -18,7 +18,7 @@ while True:
     if numc < 6.2:
         break
     print(numc)
-    numc = (numc-1)
+    numc = (numc-1.0)
 print('')
 
 '''Q3f'''
